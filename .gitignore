@@ -5,3 +5,7 @@
 .svn
 tags
 .gdb_history
+
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
