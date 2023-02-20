@@ -24,4 +24,6 @@ project "bimg"
 		"%{IncludeDir.bimg3rdPartyAstcCodec}",
 		"%{IncludeDir.bimg3rdPartyAstcCodecInclude}"
 	}
+	filter "system:linux"
+		pic "on"
 	setBxCompat()
